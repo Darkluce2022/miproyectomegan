@@ -1,0 +1,110 @@
+
+img {
+    float:left;
+    height: 24rem;
+    border-radius: 2rem;
+} 
+body{
+      min-height: 100vh;
+      background-image: url(palomitas.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+     height: 1800px;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+
+
+h1 {
+    color:white;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: size 18px;
+    color:darkgray;
+    text-align:left;
+}
+video {
+    float: right;
+    height: 24rem;
+    
+}
+footer {
+    color:blanchedalmond;
+    text-align: left;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: hotpink;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:hotpink;}
+.badge {
+  background-color:hotpink;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+.elenco {
+  text-align: center;
+  color:darkgrey;
+}
+ .instagram {
+  color:orange;
+ }
+ .facebook {
+  color:blue
+ }
+ .youtube{
+  color:red;
+ }
+ header {
+  width: 2000px;
+  height: 190px;
+  background: url(banner2.webp);
+  background-repeat:no-repeat;
+  background-position: 50%;
+  background-size:cover;
+ 
+ }
